@@ -7,8 +7,8 @@ export default async function dbConnection(stringConexao) {
         mongoClient = new MongoClient(stringConexao);
         await mongoClient.connect();
         return mongoClient;
-    } catch (erro) {
-        console.error('Falha na conexão com o banco!', erro);
+    } catch (error) {
+        console.error('Falha na conexão com o banco!', error.message);
         process.exit();
     }
 };

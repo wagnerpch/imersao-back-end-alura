@@ -32,9 +32,25 @@ cd imersao-back-end-alura
 #crie um arquivo .env.development.local na raiz do projeto
 crie um arquivo .env.development.local na raiz do projeto e adicione a propriedade 'MONGO_URI'
 
+#crie uma pasta na raiz do projeto com o nome 'uploads'
+crie a pasta 'uploads' que será utilizada para salvar as imagens dos posts
+
 # executar o projeto
 npm run dev
 ```
+
+# Endpoints
+
+- Listar todos os posts = http://localhost:3000/posts
+- Criar post = http://localhost:3000/post
+- Adicionar imagem = http://localhost:3000/post/upload-image
+
+# Recursos adicionais
+
+- Exemplo de .env.development.local.example com as variáveis de ambiente a serem configuradas
+- Limitar os tipos de extensões de arquivos com a função renameImage(), lançando erro se a extensão do arquivo não for permitida
+- Aplicação de outras técnicas de código limpo e reuso
+
 # Autor
 
 Wagner Pereira Chequeleiro
