@@ -29,8 +29,8 @@ git clone https://github.com/wagnerpch/imersao-back-end-alura
 # acessar a pasta bin
 cd imersao-back-end-alura
 
-#crie um arquivo .env na raiz do projeto
-crie um arquivo .env na raiz do projeto e adicione a propriedade 'MONGO_URI'
+#crie um arquivo .env.development.local na raiz do projeto
+crie um arquivo .env.development.local na raiz do projeto e adicione a propriedade 'MONGO_URI'
 
 # executar o projeto
 npm run dev
