@@ -14,7 +14,7 @@ Esse projeto foi desenvolvido com base nas aulas da <a href="https://www.alura.c
 
 - Node.Js
 
-## Dependências: Express
+## Dependências: 
 - Cors
 - DotEnv
 - Express
