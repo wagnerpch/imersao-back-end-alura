@@ -64,3 +64,8 @@ npm run dev
 Wagner Pereira Chequeleiro
 
 https://www.linkedin.com/in/wagnerpch/
+
+## Contribuição e agradecimento
+
+Projeto desenvolvido a partir da Imersão Back-end da Alura, baseado no código disponibilizado pelos professores <a href="https://www.udemy.com/course/java-curso-completo/" target="_blank">neste link<a>. 
+Agradeço aos professores pela didática e por proporcionar acesso organizado ao mundo do Node.Js.
