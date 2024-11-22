@@ -1,8 +1,9 @@
+import 'dotenv/config';
 import fs from "fs";
 import path from 'path';
 
 const allowedExtensions = ['.jpg', '.jpeg', '.png', '.gif'];
-const dir = "uploads/";
+const dir = `${process.env.DIR_UPLOADS}/`;
 const getSafeFilename = (originalName, postId) => {
     const extension = path.extname(originalName).toLowerCase();
     if (!allowedExtensions.includes(extension)) {

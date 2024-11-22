@@ -13,8 +13,13 @@ Esse projeto foi desenvolvido com base nas aulas da <a href="https://www.alura.c
 ## Back end
 
 - Node.Js
+
+## Dependências: Express
+- Cors
+- DotEnv
 - Express
 - Mongo Atlas
+- Multer
 
 # Como executar o projeto
 
@@ -30,7 +35,7 @@ git clone https://github.com/wagnerpch/imersao-back-end-alura
 cd imersao-back-end-alura
 
 #crie um arquivo .env.development.local na raiz do projeto
-crie um arquivo .env.development.local na raiz do projeto e adicione a propriedade 'MONGO_URI'
+crie um arquivo .env.development.local na raiz do projeto e completar com os valores das varíaveis
 
 #crie uma pasta na raiz do projeto com o nome 'uploads'
 crie a pasta 'uploads' que será utilizada para salvar as imagens dos posts
@@ -41,9 +46,12 @@ npm run dev
 
 # Endpoints
 
-- Listar todos os posts = http://localhost:3000/posts
-- Criar post = http://localhost:3000/post
-- Adicionar imagem = http://localhost:3000/post/upload-image
+- Listar todos os posts (GET) = http://localhost:3000/posts
+- Consultar um post (GET) = http://localhost:3000/post/:id
+- Criar um post (POST) = http://localhost:3000/post
+- Adicionar uma imagem (POST) = http://localhost:3000/post/upload-image
+- Atualizar um post (PUT) = http://localhost:3000/post/:id
+- Deletar um post (DEL) = http://localhost:3000/post/:id
 
 # Recursos adicionais
 
